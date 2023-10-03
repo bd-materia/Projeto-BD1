@@ -3,15 +3,14 @@
 # Funcionamento da API:
 - Método ```exec_select_livro(parametros)```
 
-Ao executar o select na tabela ```lib.livros```, a consulta pode ser feita de duas maneiras: pelo id do livro, que irá retornar apenas as informações do livro referente àquele id
+Ao executar o select na tabela ```lib.livros```, a consulta pode ser feita de duas maneiras: pelo id ou pelo título do livro, que irá retornar apenas as informações do livro referente àquele id ou titulo
 
-Exemplo de consulta pelo id do livro:
+Exemplo de consultas pelo id e pelo titulo:
 ```
 {
   "id_livro": 15
 }
 ```
-ou pelo título do livro. Exemplo de consulta pelo titulo do livro:
 ```
 {
   "titulo": "O Código da Vinci"
